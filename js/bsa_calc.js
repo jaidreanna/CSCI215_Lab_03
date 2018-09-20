@@ -20,8 +20,10 @@ function calculate() {
     // ==========================================
     // Todo: Perform conversion calculations here
 
-    // -------------------------------
-    // Body Surface Area (BSA)
+    var weight_kg = weight*0.454;
+    var weight_kg = height*2.54;
+    var height_m = height*0.0254;
+    //
     // -------------------------------
 
     var BSA = 0;
